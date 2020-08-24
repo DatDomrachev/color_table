@@ -1,0 +1,15 @@
+.popup-content {
+    width: 595px !important;
+}
+.sketch-picker{
+    width: 540px !important;
+}
+
+@media (max-width: 735px) {
+    .popup-content {
+        width: 100% !important;
+    }
+    .sketch-picker{
+        width: 95% !important;
+    }
+}
