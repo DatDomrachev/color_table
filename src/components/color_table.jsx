@@ -225,7 +225,7 @@ class ColorTable extends React.Component {
 
                     <Popup
                         open={this.state.open}
-                        closeOnDocumentClick
+                        onClose={e=>{this.closeModal()}}
                     >
                         <div className={'p-2'}>
                             <a className="close" style={{cursor:'pointer'}} onClick={e=>{this.closeModal()}}>
